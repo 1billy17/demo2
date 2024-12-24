@@ -1,0 +1,41 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = demo2
+build_property.ProjectDir = /Users/feitanportor/dev/C#/demo2/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/feitanportor/dev/C\#/demo2/AddProductWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/AdminWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/GuestWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/SignWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/feitanportor/dev/C\#/demo2/ViewRecords.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

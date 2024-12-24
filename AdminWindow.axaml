@@ -1,0 +1,59 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="demo2.AdminWindow"
+        Title="AdminWindow">
+        <DockPanel>
+            <StackPanel 
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"
+                DockPanel.Dock="Top" 
+                Spacing="10"
+                Height="50">
+                <TextBox Width="200" x:Name="SearchTextBox"/>
+                <ComboBox VerticalAlignment="Center" Width="100" x:Name="SortComboBox"/>
+                <ComboBox VerticalAlignment="Center" Width="100" x:Name="FilterCombobox"/>
+                <TextBlock VerticalAlignment="Center" x:Name="CountRowTextBlock"/>
+                <Button x:Name="AddProductButton" Click="AddProductButton_OnClick" Content="Create Product"/>
+                <Button x:Name="ViewRecords" Click="ViewRecords_OnClick" Content="View Records"/>
+            </StackPanel>
+            <StackPanel
+                HorizontalAlignment="Center"
+                Orientation="Horizontal"  
+                DockPanel.Dock="Bottom" Height="40">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Text="quantity"/>
+            </StackPanel>
+            <ListBox x:Name="ProductListBox">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="6"></UniformGrid>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Gray" BorderThickness="1">
+                            <StackPanel 
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center">
+                                <Image Width="50" Height="50"/>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock TextWrapping="Wrap"/>
+                                    <TextBlock/>
+                                </StackPanel>
+                                <TextBlock/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+                <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Update"/>
+                    <MenuItem Header="Delete"/>
+                    <MenuItem Header="Sign Up" Click="Sign_OnClick"/>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            </ListBox>
+        </DockPanel>
+</Window>

@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
+        x:Class="demo2.AddProduct"
+        Title="AddProduct">
+<StackPanel Spacing="5" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBox Width="200" x:Name="ProductIdTextBox"/>
+        <TextBox x:Name="ProductNameTextBox"/>
+        <Image Width="60" Height="60"/>
+        <Button Width="100" x:Name="SelectImageButton" Content="SelectImage"/>
+        <TextBox Width="200" x:Name="ProductDescTextBox"/>
+        <TextBox Width="200" x:Name="ProductCostTextBox"/>
+        <ComboBox Width="200" x:Name="ManafacturesComboBox"/>
+        <Button Width="100" x:Name="SaveButton" Content="Save"/>
+        <Button Width="100" x:Name="AddButton" Content="Add"/>
+</StackPanel>
+</Window>
